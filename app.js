@@ -52,7 +52,7 @@ async function playGame() {
     console.log('Played the game:', tx);
 }
 
-// Withdraw Winnings
+// Withdraw Winnings Ramymouner@hotmail.com
 async function withdrawWinnings() {
     if (!web3 || !contract) {
         console.log('Web3 or contract not initialized.');
