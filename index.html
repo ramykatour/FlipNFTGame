@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flip NFT Game</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>Flip NFT Game</h1>
+    <p>Connect your wallet:</p>
+    <button onclick="connectWallet()">Connect Wallet</button>
+    <br><br>
+    <p>Join the game:</p>
+    <button onclick="joinGame()">Join Game</button>
+    <br><br>
+    <p>Play the game:</p>
+    <button onclick="playGame()">Play Game</button>
+    <br><br>
+    <p>Withdraw winnings:</p>
+    <button onclick="withdrawWinnings()">Withdraw Winnings</button>
+    <br><br>
+    <p>Contract Balance: <span id="contractBalance">0</span> ETH</p>
+    <p>Your Balance: <span id="playerBalance">0</span> ETH</p>
+    <p>Winner: <span id="winnerAddress">-</span></p>
+</body>
+</html>
